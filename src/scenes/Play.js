@@ -84,7 +84,7 @@ class Play extends Phaser.Scene {
         }
 
         // check key input for menu
-        if (this.gameOver && Phaser.Input.Keyboard.JustDown(keyLeft)) {
+        if (this.gameOver && Phaser.Input.Keyboard.JustDown(keyLEFT)) {
             this.scene.start("menuScene");
         }
 
